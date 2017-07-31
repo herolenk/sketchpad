@@ -1,0 +1,147 @@
+html{
+    font-size: 16px;
+    margin:0;
+    padding:0;
+}
+#back{
+    background-color:hsla(190, 60%, 20%,0.6);
+}
+header{
+    background-color: hsla(200, 80%, 20%,1);
+}
+.logo h1{
+    font-family: Lobster;
+    text-align: center;
+    font-size: 6rem;
+    color: hsla(210, 80%, 70%,1);
+    
+}
+
+#reset-btn{
+    font-size: 3rem;
+    padding: 2rem 4rem;
+    font-family: 'Permanent Marker', cursive;
+    background: #cb2d3e; 
+    background: -webkit-linear-gradient(to right, #cb2d3e, #ef473a);
+    background: linear-gradient(to right, #cb2d3e, #ef473a);
+    color: hsla(210,80%,70%,0.8);
+    margin-top: 5%;
+    margin-left: 40%
+}
+
+/* Main */
+.main .row .addclr{
+    background-color: maroon;
+}
+.main .mycontainer{
+    width: 30%;
+}
+.main{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.my-squ{
+    background-color: hsla(200,60%,70%,0.3);
+    height:20px;
+    border:1px solid hsla(210, 80%, 70%,1);
+}
+/* Supporting*/
+
+#changeAll{
+    font-size: 2rem;
+    padding: 2rem 4rem;
+    font-family: 'Permanent Marker', cursive;
+    background: #de6161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: hsla(210,80%,70%,0.8);
+    position: fixed;
+    top: 50%;
+    left: 15%;
+    display: none;
+}
+#changeCurr{
+    font-size: 2rem;
+    padding: 2rem 4rem;
+    font-family: 'Permanent Marker', cursive;
+    background: #de6161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: hsla(210,80%,70%,0.8);
+    position: fixed;
+    top: 50%;
+    right: 15%;
+    display: none;
+}
+/* footer */
+footer{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    padding-top: 15px;
+    color: hsla(210, 80%, 70%,1);
+}
+.back{
+    background-color: hsla(200, 80%, 20%,1);
+    height: 7rem;
+}
+
+/* Media*/
+
+@media only screen and (max-width: 1422px){
+    .main .mycontainer{
+    width: 50%;
+}
+}
+@media only screen and (max-width: 991px){
+    #reset-btn{
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    
+}
+    .main .mycontainer{
+    width: 70%;
+}
+}
+@media only screen and (max-width: 600px){
+     .main .mycontainer{
+    width: 90%;
+}
+}
+@media only screen and (max-width: 497px){
+
+    .main .mycontainer{
+    width: 100%;
+}
+    #reset-btn{
+    padding: 1rem 2rem;
+    position: relative;
+    left: -40px;
+    
+}
+    .b11-12,.b12-12{
+        display: none;
+    }
+}
+@media only screen and (max-width: 431px){
+
+    .main .mycontainer{
+        
+        width: 55%;
+}
+    .b9-12,.b10-12,.b11-12,.b12-12{
+        display: none;
+    }
+}
+@media only screen and (max-width: 397px){
+
+    .main .mycontainer{
+        
+        width: 60%;
+}
+    .b6-12,.b7-12,.b8-12,.b9-12,.b10-12,.b11-12,.b12-12{
+        display: none;
+    }
+}
