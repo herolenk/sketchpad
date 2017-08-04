@@ -113,7 +113,7 @@ footer{
 @media only screen and (max-width: 497px){
 
     .main .mycontainer{
-    width: 100%;
+    width: 90%;
 }
     #reset-btn{
     padding: 1rem 2rem;
@@ -131,7 +131,7 @@ footer{
         
         width: 55%;
 }
-    .b9-12,.b10-12,.b11-12,.b12-12{
+    .b7-12,.b8-12,.b9-12,.b10-12,.b11-12,.b12-12{
         display: none;
     }
 }
@@ -141,7 +141,7 @@ footer{
         
         width: 60%;
 }
-    .b6-12,.b7-12,.b8-12,.b9-12,.b10-12,.b11-12,.b12-12{
+   .b6-12,.b7-12,.b8-12,.b9-12,.b10-12,.b11-12,.b12-12{
         display: none;
     }
 }
